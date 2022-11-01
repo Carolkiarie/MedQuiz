@@ -1,0 +1,75 @@
+/* css reset */
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+    font-size: 19px;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2{
+    overflow-wrap: break-word;
+  }
+  /* css styling */
+
+section{
+    background-color: rgb(237, 233, 243);
+     
+}
+h1{
+    font-size: 1.9em;
+    padding: 60px;
+    text-align: center;
+   color: #87CEEB;
+   /* letter-spacing: 0.1em; */
+   padding-bottom: 2.5em;
+}
+article{
+    background-color: #87CEEB;
+    padding: 2em 3em;
+    
+}
+p{
+    font-size: 1.3em;
+}
+h2{
+    padding-bottom: 2em;
+    font-size: 1.3em;
+}
+.lab{
+    margin: 0 22px;
+}
+.submt{
+    padding-top: 0.3em;
+    text-align: center;
+    max-width: 80px
+}
+.container{
+    display: none;
+    
+}
+
+.success{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #377183;
+}
+span{
+    font-size: 2em;
+    color: #87CEEB;
+}
